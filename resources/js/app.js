@@ -1,7 +1,19 @@
-import './bootstrap';
+import '../css/app.css'
 
-import Alpine from 'alpinejs';
+import { createApp, h } from 'vue'
+import { createInertiaApp } from '@inertiajs/vue3'
+import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
 
-window.Alpine = Alpine;
+createInertiaApp({
+  resolve: name =>
+    resolvePageComponent(
+      `./Pages/${name}.vue`,
+      import.meta.glob('./Pages/**/*.vue')
+    ),
 
-Alpine.start();
+  setup({ el, App, props, plugin }) {
+    createApp({ render: () => h(App, props) })
+      .use(plugin)
+      .mount(el)
+  },
+})

@@ -1,0 +1,71 @@
+<script setup>
+import { Link } from '@inertiajs/vue3'
+</script>
+
+<template>
+  <div class="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white px-6">
+
+    <!-- CONTAINER MAIS LARGO -->
+    <div class="max-w-5xl w-full text-center mx-auto">
+
+      <!-- TÍTULO -->
+      <h1 class="text-5xl font-bold mb-4">
+        📘 Diário & Memórias
+      </h1>
+
+      <!-- SUBTEXTO -->
+      <p class="text-gray-400 mb-10 text-lg">
+        Guarde seus pensamentos, ideias e momentos importantes em um só lugar.
+      </p>
+
+      <!-- BOTÕES -->
+      <div class="flex flex-col sm:flex-row justify-center gap-8 mb-12">
+
+        <!-- ENTRAR -->
+        <Link
+          href="/login"
+          class="bg-blue-600 px-10 py-4 rounded-xl text-lg hover:bg-blue-700 transition w-full sm:w-auto text-center hover:scale-105 shadow-md"
+        >
+          🔐 Entrar
+        </Link>
+
+        <!-- CRIAR CONTA -->
+        <Link
+          href="/register"
+          class="bg-blue-600 px-12 py-5 rounded-xl text-xl hover:bg-blue-700 transition w-full sm:w-auto text-center hover:scale-105 shadow-lg border border-blue-400"
+        >
+          ✨ Criar Conta
+        </Link>
+
+      </div>
+
+      <!-- FEATURES -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
+
+        <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+          <h2 class="text-lg font-semibold mb-1">📓 Diário</h2>
+          <p class="text-gray-400 text-sm">
+            Registre seu dia a dia.
+          </p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+          <h2 class="text-lg font-semibold mb-1">📚 Memórias</h2>
+          <p class="text-gray-400 text-sm">
+            Guarde momentos importantes.
+          </p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+          <h2 class="text-lg font-semibold mb-1">⚡ Simples</h2>
+          <p class="text-gray-400 text-sm">
+            Rápido e intuitivo.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</template>
