@@ -1,0 +1,102 @@
+{
+  "_GuestLayout-BhTMgPQl.js": {
+    "file": "assets/GuestLayout-BhTMgPQl.js",
+    "name": "GuestLayout",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_MainLayout-Cr6VSE4Z.js": {
+    "file": "assets/MainLayout-Cr6VSE4Z.js",
+    "name": "MainLayout",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.vue": {
+    "file": "assets/Login-BCiLovBK.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_GuestLayout-BhTMgPQl.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.vue": {
+    "file": "assets/Register-BB7NPPuZ.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_GuestLayout-BhTMgPQl.js"
+    ]
+  },
+  "resources/js/Pages/Diario.vue": {
+    "file": "assets/Diario-tFkJb9zx.js",
+    "name": "Diario",
+    "src": "resources/js/Pages/Diario.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_MainLayout-Cr6VSE4Z.js"
+    ]
+  },
+  "resources/js/Pages/Editar.vue": {
+    "file": "assets/Editar-CzmNEntW.js",
+    "name": "Editar",
+    "src": "resources/js/Pages/Editar.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_MainLayout-Cr6VSE4Z.js"
+    ]
+  },
+  "resources/js/Pages/Home.vue": {
+    "file": "assets/Home-B7W7eFVz.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Memorias.vue": {
+    "file": "assets/Memorias-xC9BZgPO.js",
+    "name": "Memorias",
+    "src": "resources/js/Pages/Memorias.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MainLayout-Cr6VSE4Z.js",
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Welcome.vue": {
+    "file": "assets/Welcome-C_UhNHYz.js",
+    "name": "Welcome",
+    "src": "resources/js/Pages/Welcome.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BeMHo18P.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Auth/Login.vue",
+      "resources/js/Pages/Auth/Register.vue",
+      "resources/js/Pages/Diario.vue",
+      "resources/js/Pages/Editar.vue",
+      "resources/js/Pages/Home.vue",
+      "resources/js/Pages/Memorias.vue",
+      "resources/js/Pages/Welcome.vue"
+    ],
+    "css": [
+      "assets/app-CblbrFUT.css"
+    ]
+  }
+}
