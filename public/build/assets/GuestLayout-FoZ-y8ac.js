@@ -1,0 +1,1 @@
+import{f as r,a as n,r as a,o as l}from"./app-D7gd7Air.js";const _=(e,t)=>{const s=e.__vccOpts||e;for(const[o,c]of t)s[o]=c;return s},f={},i={class:"min-h-screen flex items-center justify-center bg-gray-900 text-white"},d={class:"w-full max-w-5xl px-6"};function u(e,t){return l(),r("div",i,[n("div",d,[a(e.$slots,"default")])])}const x=_(f,[["render",u]]);export{x as G};
